@@ -1,0 +1,510 @@
+/* GREEN MACRO: #2ecc71  */
+
+body {
+    /* width: 1200px; */
+    font: 13px/1.1em "Helvetica Neue", Arial, Helvetica, sans-serif;
+    min-width: 1200px;
+}
+
+.page-wrapper {
+    /* width: 1173px; */
+}
+
+h3 {
+    font-size: 23.5px;
+}
+
+h4, button {
+    font-family: 'Raleway';
+    font-size: 23px;
+    line-height: 23px;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+p {
+    color: #848484;
+    font-size: 15.5px;
+    /* line-height: 1.5; */
+    line-height: 30px;
+}
+
+.green-color {
+    color: #2ecc71;
+}
+
+header {
+    border-top: 10px solid #2ecc71;
+    /* XXX need to float hand image right */
+    background-image: url(../images/background.png);
+    background-position: center;
+    height: 599px;
+}
+
+.header-wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
+.header-info {
+    left: 125px;
+    position: absolute;
+    top: 171px;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Pacifico';
+    font-size: 60px;
+    line-height: 1;
+}
+
+header h3 {
+    /* font-weight is downloaded as 600 from google api */
+    color: #fff;
+    font-family: 'Raleway';
+    line-height: 1.4;
+    margin: 60px 0 25px;
+    width: 453px;
+}
+
+header li {
+    background-color: #000;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 100%;
+    float: left;
+    height: 53px;
+    margin-right: 15px;
+    width: 53px;
+}
+
+header li:hover {
+    background-color: #2ecc71;
+}
+
+header a {
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    height: 53px;
+    width: 53px;
+}
+
+/* XXX icons' colors don't match */
+header #apple {
+    background-image: url(../images/apple.png);
+}
+
+header #android {
+    background-image: url(../images/android.png);
+}
+
+header #windows {
+    background-image: url(../images/windows.png);
+}
+
+.content-wrapper {
+    /* width: 1200px; */
+    /* margin: 0 auto; */
+}
+
+.top-content  {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.top-content ul {
+    margin: 60px auto;
+    overflow: hidden;
+    width: 1173px;
+}
+
+.top-content li {
+    box-sizing: border-box;
+    float: left;
+    /* margin-right: 117px; */
+    margin-right: 9.97%;
+    /* width: 313px; */
+    width: 26.68%;
+}
+
+.top-content li:last-child {
+    margin-right: 0;
+}
+
+.top-content .disc {
+    background: #2ecc71; 
+    border-radius: 100%;
+    height: 98px;
+    margin: 0 auto;
+    width: 98px;
+}
+
+.top-content .icon {
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 98px;
+    width: 98px;
+}
+
+.top-content .tool {
+    background-image: url(../images/tool.png);
+}
+
+.top-content .star {
+    background-image: url(../images/star.png);
+}
+
+.top-content .earth {
+    background-image: url(../images/earth.png);
+}
+
+.top-content h4 {
+    margin-top: 31px;
+    text-align: center;
+}
+
+.top-content p {
+    /* font-color: #eeeeee; */
+    /* font-height: 12px; */
+    margin-top: 29px;
+    text-align: center;
+}
+
+.mid-content {
+    background-color: #e3e3e3;
+    overflow: hidden;
+}
+
+.mid-container {
+    margin: 60px auto;
+    overflow: hidden;
+    width: 1173px;
+}
+
+.notifications {
+    float: left;
+}
+
+.notifications p {
+    line-height: 28px;
+    margin-top: 22px;
+    width: 533px;
+}
+
+/* XXX stop highlighting box on Chrome when selected */
+.notifications input {
+    border: 1px solid #c8c8c8;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: none;
+    color: #848484;
+    float: left;
+    font-size: 20px;
+    height: 54px;
+    /* height: 20px; */
+    line-height: 54px;
+    margin-top: 23px;
+    /* padding: 17px 25px; */
+    padding-left: 25px;
+    /* vertical-align: middle; */
+    width: 304px;
+}
+
+.notifications button {
+    background-color: #2ecc71;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    float: left;
+    /* font-family: 'Raleway'; */
+    /* font-size: 23px; */
+    height: 56px;
+    margin-top: 23px;
+    width: 141px;
+}
+
+.mid-container .video {
+    background-image: url(../images/video.png);
+    border-radius: 8px;
+    float: right;
+    height: 300px;
+    width: 500px;
+}
+
+.bot-content {
+    /* position: relative; */
+}
+
+.display-space {
+    height: 176px;
+    /* position: relative; */
+    width: 100%;
+}
+
+#team {
+    margin: 0 auto;
+    padding-top: 176px;
+    width: 1173px;
+}
+
+#team ul {
+    overflow: hidden;
+    /* position: relative; */
+}
+
+#team ul .portrait-info {
+    /* display: none; */
+}
+
+#team ul #jane_hunt1 .portrait-info {
+    /* display: block; */
+    /* position: absolute; */
+    /* top: 0; */
+}
+
+#team blockquote {
+    margin: 60px auto 0;
+    text-align: center;
+    width: 825px;
+}
+
+#team p
+{
+    font-size: 17px;
+}
+
+#team h5 {
+    /* margin-top: 30px; */
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+
+#team .portrait-image
+{
+    display: inline-block;
+    float: left;
+    height: 50px;
+    margin-right: 5px;
+    width: 50px;
+}
+
+#team #jane_hunt1 {
+    background-image: url(../images/jane_hunt1.png);
+}
+
+#team #jane_hunt2 {
+    background-image: url(../images/jane_hunt2.png);
+}
+
+#team #jane_hunt3 {
+    background-image: url(../images/jane_hunt3.png);
+}
+
+#team #jane_hunt4 {
+    background-image: url(../images/jane_hunt4.png);
+}
+
+#team #jane_hunt5 {
+    background-image: url(../images/jane_hunt5.png);
+}
+
+#team #jane_hunt6 {
+    background-image: url(../images/jane_hunt6.png);
+}
+
+#team #jane_hunt7 {
+    background-image: url(../images/jane_hunt7.png);
+}
+
+#team #john_smith1 {
+    background-image: url(../images/john_smith1.png);
+}
+
+#team #john_smith2 {
+    background-image: url(../images/john_smith2.png);
+}
+
+#team #john_smith3 {
+    background-image: url(../images/john_smith3.png);
+}
+
+#team #john_smith4 {
+    background-image: url(../images/john_smith4.png);
+}
+
+#team #john_smith5 {
+    background-image: url(../images/john_smith5.png);
+}
+
+#team #john_smith6 {
+    background-image: url(../images/john_smith6.png);
+}
+
+#team #john_smith7 {
+    background-image: url(../images/john_smith7.png);
+}
+
+#team #john_smith8 {
+    background-image: url(../images/john_smith8.png);
+}
+
+#team #john_smith9 {
+    background-image: url(../images/john_smith9.png);
+}
+
+#team #john_smith10 {
+    background-image: url(../images/john_smith10.png);
+}
+
+#team #john_smith11 {
+    background-image: url(../images/john_smith11.png);
+}
+
+#team #john_smith12 {
+    background-image: url(../images/john_smith12.png);
+}
+
+#team #john_smith13 {
+    background-image: url(../images/john_smith13.png);
+}
+
+#team #john_smith14 {
+    background-image: url(../images/john_smith14.png);
+}
+
+
+#team #left_linear_gradient_mask {
+    background: linear-gradient(to right, white, rgba(255,0,0,0));
+    height: inherit;
+    width: inherit;
+}
+
+#team #right_linear_gradient_mask {
+    background: linear-gradient(to left, white, rgba(255,0,0,0));
+    height: inherit;
+    width: inherit;
+}
+
+#team .hover_overlay {
+    height: inherit;
+    width: inherit;
+}
+
+#team .hover_overlay:hover {
+    background-color: #2ecc71;
+    opacity: .6;
+}
+
+#team li:hover .portrait-info {
+    /* display: block; */
+}
+
+.head-shots {
+    border: 1px solid #2ecc71;
+    height: 50px;
+    margin: 30px auto 0;
+    width: 1180px;
+}
+
+#connect h3 {
+    margin: 60px auto 0;
+    text-align: center;
+    width: 237px;
+}
+
+#connect p {
+    margin-top: 21px;
+    margin: 21px auto 0;
+    text-align: center;
+    width: 489px;
+}
+
+.social-links {
+    margin: 26px auto 60px;
+    overflow: hidden;
+    width: 254px;
+}
+
+.social-links li {
+    background: #d4d4d4;
+    border-radius: 100%;
+    float: left;
+    height: 34px;
+    margin-right: 10px;
+    width: 34px;
+}
+
+.social-links li:hover {
+    background: #2ecc71;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    height: 34px;
+    width: 34px;
+}
+
+.social-links #twitter {
+    background-image: url(../images/twitter.png);
+}
+
+.social-links #facebook {
+    background-image: url(../images/facebook.png);
+}
+
+.social-links #pinterest {
+    background-image: url(../images/pinterest.png);
+}
+
+.social-links #google-plus {
+    background-image: url(../images/google-plus.png);
+}
+
+.social-links #linkedin {
+    background-image: url(../images/linkedin.png);
+}
+
+.social-links #youtube {
+    background-image: url(../images/youtube.png);
+}
+
+footer {
+    background-color: #e3e3e3;
+    overflow: hidden;
+}
+
+footer nav {
+    margin: 60px 0;
+    overflow: hidden;
+}
+
+footer ul {
+    margin: 0 auto;
+    width: 720px;
+}
+
+footer li{
+    float: left;
+    width: 120px;
+}
+
+footer a{
+    color: #848484;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+p span {
+    font-size: 30px;
+}
