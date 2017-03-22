@@ -193,7 +193,8 @@ header #windows {
 .notifications p {
     line-height: 28px;
     margin-top: 22px;
-    width: 533px;
+    /* width: 533px; */
+    width: 530px;
 }
 
 /* XXX stop highlighting box on Chrome when selected */
@@ -237,7 +238,7 @@ header #windows {
 }
 
 .bot-content {
-    /* position: relative; */
+    position: relative;
 }
 
 .display-space {
@@ -248,7 +249,7 @@ header #windows {
 
 #team {
     margin: 0 auto;
-    padding-top: 176px;
+    /* padding-top: 176px; */
     width: 1173px;
 }
 
@@ -258,29 +259,43 @@ header #windows {
 }
 
 #team ul .portrait-info {
-    /* display: none; */
+    background: white;
+    display: none;
+    /* margin: 0 auto; */
+    left: 0;
+    position: absolute;
+    top: 52px;
+    width: 100%;
+}
+
+#team ul .first {
+    display: block;
 }
 
 #team ul #jane_hunt1 .portrait-info {
     /* display: block; */
-    /* position: absolute; */
     /* top: 0; */
 }
 
 #team blockquote {
-    margin: 60px auto 0;
+    /* margin: 60px auto 0; */
+    margin: 0 auto;
     text-align: center;
-    width: 825px;
+    width: 750px;
 }
 
 #team p
 {
-    font-size: 17px;
+    /* font-size: 14px; */
+    font-style: italic;
+    /* font-weight: 400; */
 }
 
 #team h5 {
-    /* margin-top: 30px; */
-    margin: 30px 0 30px 0;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+    /* margin: 30px 0 30px 0; */
     text-align: center;
 }
 
@@ -401,7 +416,7 @@ header #windows {
 }
 
 #team li:hover .portrait-info {
-    /* display: block; */
+    display: block;
 }
 
 .head-shots {
