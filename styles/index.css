@@ -11,12 +11,14 @@ body {
 }
 
 h3 {
-    font-size: 23.5px;
+    font-size: 24px;
+
 }
 
 h4, button {
+    color: #222222;
     font-family: 'Raleway';
-    font-size: 23px;
+    font-size: 22px;
     line-height: 23px;
 }
 
@@ -27,7 +29,9 @@ h5 {
 
 p {
     color: #848484;
-    font-size: 15.5px;
+    /* font-size: 15.5px; */
+    /* font-size: 16px; */
+    font-size: 16px;
     /* line-height: 1.5; */
     line-height: 30px;
 }
@@ -59,7 +63,9 @@ header {
 header h1 {
     color: #fff;
     font-family: 'Pacifico';
+    /* font-size: 60px; */
     font-size: 60px;
+    /* font-weight: 300; */
     line-height: 1;
 }
 
@@ -68,8 +74,10 @@ header h3 {
     color: #fff;
     font-family: 'Raleway';
     line-height: 1.4;
-    margin: 60px 0 25px;
-    width: 453px;
+    /* margin: 60px 0 25px; */
+    margin: 55px 0 25px;
+    /* width: 453px; */
+    width: 470px;
 }
 
 header li {
@@ -127,9 +135,11 @@ header #windows {
     box-sizing: border-box;
     float: left;
     /* margin-right: 117px; */
-    margin-right: 9.97%;
+    /* margin-right: 9.97%; */
+    margin-right: 7.8%;
     /* width: 313px; */
-    width: 26.68%;
+    /* width: 26.68%; */
+    width: 28.13%;
 }
 
 .top-content li:last-child {
@@ -171,7 +181,7 @@ header #windows {
 .top-content p {
     /* font-color: #eeeeee; */
     /* font-height: 12px; */
-    margin-top: 29px;
+    margin-top: 22px;
     text-align: center;
 }
 
@@ -191,10 +201,12 @@ header #windows {
 }
 
 .notifications p {
+    /* font-size: 16px; */
     line-height: 28px;
     margin-top: 22px;
     /* width: 533px; */
-    width: 530px;
+    /* width: 530px; */
+    width: 540px;
 }
 
 /* XXX stop highlighting box on Chrome when selected */
@@ -213,7 +225,8 @@ header #windows {
     /* padding: 17px 25px; */
     padding-left: 25px;
     /* vertical-align: middle; */
-    width: 304px;
+    /* width: 304px; */
+    width: 279px;
 }
 
 .notifications button {
@@ -255,6 +268,7 @@ header #windows {
 
 #team ul {
     overflow: hidden;
+    width: 1150px;
     /* position: relative; */
 }
 
@@ -281,14 +295,23 @@ header #windows {
     /* margin: 60px auto 0; */
     margin: 0 auto;
     text-align: center;
-    width: 750px;
+    /* width: 750px; */
+    width: 860px;
 }
 
 #team p
 {
-    /* font-size: 14px; */
+    font-size: 18px;
     font-style: italic;
-    /* font-weight: 400; */
+    font-weight: 400;
+}
+
+#team h4 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 20px;
+    /* margin: 30px 0 30px 0; */
+    text-align: center;
 }
 
 #team h5 {
@@ -306,6 +329,10 @@ header #windows {
     height: 50px;
     margin-right: 5px;
     width: 50px;
+}
+
+#team li:last-child .portrait-image {
+    margin-right: 0;
 }
 
 #team #jane_hunt1 {
@@ -436,7 +463,7 @@ header #windows {
     margin-top: 21px;
     margin: 21px auto 0;
     text-align: center;
-    width: 489px;
+    /* width: 489px; */
 }
 
 .social-links {
