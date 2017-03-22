@@ -28,6 +28,7 @@ p {
     /* font-size: 15.5px; */
     /* font-size: 16px; */
     font-size: 16px;
+    /* font-weight: 500; */
     /* line-height: 1.5; */
     line-height: 30px;
 }
@@ -453,7 +454,7 @@ header #windows {
 #connect h3 {
     margin: 60px auto 0;
     text-align: center;
-    width: 237px;
+    /* width: 237px; */
 }
 
 #connect p {
