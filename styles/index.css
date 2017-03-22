@@ -418,13 +418,13 @@ header #windows {
 
 
 #team #left_linear_gradient_mask {
-    background: linear-gradient(to right, white, rgba(255,0,0,0));
+    background: linear-gradient(to right, white, rgba(255, 255, 255,0));
     height: inherit;
     width: inherit;
 }
 
 #team #right_linear_gradient_mask {
-    background: linear-gradient(to left, white, rgba(255,0,0,0));
+    background: linear-gradient(to left, white, rgba(255, 255, 255,0));
     height: inherit;
     width: inherit;
 }
