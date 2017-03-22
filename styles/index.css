@@ -6,10 +6,6 @@ body {
     min-width: 1200px;
 }
 
-.page-wrapper {
-    /* width: 1173px; */
-}
-
 h3 {
     font-size: 24px;
 
@@ -126,7 +122,7 @@ header #windows {
 }
 
 .top-content ul {
-    margin: 60px auto;
+    margin: 51px auto;
     overflow: hidden;
     width: 1173px;
 }
@@ -191,7 +187,7 @@ header #windows {
 }
 
 .mid-container {
-    margin: 60px auto;
+    margin: 63px auto;
     overflow: hidden;
     width: 1173px;
 }
@@ -263,12 +259,13 @@ header #windows {
 #team {
     margin: 0 auto;
     /* padding-top: 176px; */
-    width: 1173px;
+    /* width: 1173px; */
+    width: 1150px;
 }
 
 #team ul {
     overflow: hidden;
-    width: 1150px;
+    /* width: 1150px; */
     /* position: relative; */
 }
 
@@ -307,11 +304,11 @@ header #windows {
 }
 
 #team h4 {
-    font-size: 19px;
-    font-weight: 500;
-    margin-top: 20px;
-    /* margin: 30px 0 30px 0; */
-    text-align: center;
+    /* font-size: 19px; */
+    /* font-weight: 500; */
+    /* margin-top: 20px; */
+    /* [> margin: 30px 0 30px 0; <] */
+    /* text-align: center; */
 }
 
 #team h5 {
@@ -467,7 +464,8 @@ header #windows {
 }
 
 .social-links {
-    margin: 26px auto 60px;
+    /* margin: 26px auto 60px; */
+    margin: 21px auto 60px;
     overflow: hidden;
     width: 254px;
 }
@@ -527,18 +525,25 @@ footer {
 }
 
 footer nav {
-    margin: 60px 0;
+    display: table;
+    /* margin: 60px auto; */
+    margin: 58px auto;
     overflow: hidden;
 }
 
 footer ul {
-    margin: 0 auto;
-    width: 720px;
+    /* margin: 0 auto; */
+    /* width: 720px; */
 }
 
 footer li{
     float: left;
-    width: 120px;
+    margin-right: 37px;
+    /* width: 120px; */
+}
+
+footer li:last-child {
+    margin-right: 0;
 }
 
 footer a{
