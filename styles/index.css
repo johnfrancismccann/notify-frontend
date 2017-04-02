@@ -1,20 +1,22 @@
 /* GREEN MACRO: #2ecc71  */
 
 body {
-    /* width: 1200px; */
-    font: 13px/1.1em "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font: 13px/1.1em "Helvetica Neue Regular", Arial, Helvetica, sans-serif;
     min-width: 1200px;
 }
 
-h3 {
-    font-size: 24px;
-
+.raleway {
+    font-family: 'Raleway';
+    /* this is default for windows. Mac should be 500 */
+    font-weight: 600;
 }
 
 h4, button {
     color: #222222;
-    font-family: 'Raleway';
+    /* font-family: 'Raleway'; */
     font-size: 22px;
+    /* font-weight: 500; */
+    /* font-weight: 600; */
     line-height: 23px;
 }
 
@@ -67,9 +69,9 @@ header h1 {
 }
 
 header h3 {
-    /* font-weight is downloaded as 600 from google api */
     color: #fff;
-    font-family: 'Raleway';
+    /* font-family: 'Raleway'; */
+    font-size: 24px;
     line-height: 1.4;
     /* margin: 60px 0 25px; */
     margin: 55px 0 25px;
@@ -304,17 +306,10 @@ header #windows {
     font-weight: 400;
 }
 
-#team h4 {
-    /* font-size: 19px; */
-    /* font-weight: 500; */
-    /* margin-top: 20px; */
-    /* [> margin: 30px 0 30px 0; <] */
-    /* text-align: center; */
-}
-
 #team h5 {
+    font-family: 'Raleway';
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 20px;
     /* margin: 30px 0 30px 0; */
     text-align: center;
@@ -451,10 +446,10 @@ header #windows {
     width: 1180px;
 }
 
-#connect h3 {
+#connect h4 {
+    font-size: 24px;
     margin: 60px auto 0;
     text-align: center;
-    /* width: 237px; */
 }
 
 #connect p {
