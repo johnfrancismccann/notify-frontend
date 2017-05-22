@@ -6,6 +6,7 @@ Freebies](http://bestpsdfreebies.com). The psd file can be found on [Graphic
 Burger](http://graphicburger.com/notify-psd-theme/). Many thanks for the
 design, I think it looks awesome!
 
-The html/css are hosted [here](http://www.johnmccann.io/notify/) on my personal website.
+The html/css implementation can be viewed
+[here](http://www.johnmccann.io/notify/) on my personal website.
 
 
